@@ -11,7 +11,7 @@ body {
  	position: absolute;
  	left: 0px;
  	height: 2px;
- 	background: @brand-primary;
+ 	background: #B71F2E;
  	z-index: 1;
 
  	-webkit-transition: width 0.2s ease-in;
@@ -237,7 +237,7 @@ body {
 }
 
 .breadcrumb {
-	background-color: white;
+	background-color: transparent; // white;
 }
 
 .profile-image {
@@ -293,10 +293,6 @@ body {
 		box-shadow: inset 0px 0px 2px 2px #ffffff;
 		-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
 		box-shadow: 0 1px 2px rgba(0,0,0,0.3);
-		&.unread {
-    		border-left: 2px solid @brand-primary;
-    		margin-left: -2px;
-    	}
 	}
 
 	.category-body {
@@ -319,16 +315,8 @@ body {
 }
 
 .subcategories {
-	margin: 0;
-
 	.category-item {
 		margin-bottom: 20px;
-		box-shadow: none;
-
-		.category-icon {
-			margin-left: -8px;
-			margin-right: -8px;
-		}
 	}
 }
 
@@ -351,7 +339,7 @@ body {
 		padding: 1px;
 		padding-top: 5px;
 		display: inline-block;
-		font-style: italic;
+		// font-style: italic;
 	}
 
 	.topic-item {

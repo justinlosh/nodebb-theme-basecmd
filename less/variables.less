@@ -18,7 +18,7 @@
 // Brand colors
 // -------------------------
 
-@brand-primary:			#2461b2;
+@brand-primary:			#B71F2E; // #2461b2;
 @brand-success:         spin(#5cb85c, -10);
 @brand-warning:         spin(#f0ad4e, -15);
 @brand-danger:          spin(#d9534f, -20);
@@ -28,12 +28,12 @@
 // -------------------------
 
 @body-bg:               #fff;
-@text-color:            @gray-dark;
+@text-color:            #000000; // @gray-dark;
 
 // Links
 // -------------------------
 
-@link-color:            @brand-primary;
+@link-color:            #B71F2E; // @brand-primary;
 @link-hover-color:      darken(@link-color, 15%);
 
 // Typography
@@ -119,29 +119,29 @@
 
 @btn-font-weight:                normal;
 
-@btn-default-color:              @brand-primary;
-@btn-default-bg:                 white;
-@btn-default-border:             lighten(@brand-primary, 15%);
+@btn-default-color:              white; //@brand-primary;
+@btn-default-bg:                 #000000; //white;
+@btn-default-border:             transparent; //lighten(@brand-primary, 15%);
 
 @btn-primary-color:              white;
-@btn-primary-bg:                 @brand-primary;
-@btn-primary-border:             @btn-primary-bg;
+@btn-primary-bg:                 #B71F2E; //@brand-primary;
+@btn-primary-border:             transparent; //@btn-primary-bg;
 
 @btn-success-color:              @btn-primary-color;
 @btn-success-bg:                 @brand-success;
-@btn-success-border:             @btn-success-bg;
+@btn-success-border:             transparent; //@btn-success-bg;
 
 @btn-warning-color:              @btn-primary-color;
 @btn-warning-bg:                 @brand-warning;
-@btn-warning-border:             @btn-warning-bg;
+@btn-warning-border:             transparent; //@btn-warning-bg;
 
 @btn-danger-color:               @btn-primary-color;
 @btn-danger-bg:                  @brand-danger;
-@btn-danger-border:              @btn-danger-bg;
+@btn-danger-border:              transparent; //@btn-danger-bg;
 
 @btn-info-color:                 @btn-primary-color;
 @btn-info-bg:                    @brand-info;
-@btn-info-border:                @btn-info-bg;
+@btn-info-border:                transparent; //@btn-info-bg;
 
 @btn-link-disabled-color:        @gray-light;
 
@@ -155,7 +155,7 @@
 @input-color:                    @gray;
 @input-border:                   #ccc;
 @input-border-radius:            @border-radius-base;
-@input-border-focus:             #66afe9;
+@input-border-focus:             #B71F2E; //#66afe9;
 
 @input-color-placeholder:        @gray-light;
 
@@ -264,46 +264,45 @@
 @navbar-height:                    50px;
 @navbar-margin-bottom:             @line-height-computed;
 @navbar-default-color:             #777;
-@navbar-default-bg:                #fff;
+@navbar-default-bg:                #000000; //#fff;
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 @navbar-border-radius:             @border-radius-base;
 @navbar-padding-horizontal:        floor(@grid-gutter-width / 2);
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 
 // Navbar links
-@navbar-default-link-color:                #777;
-@navbar-default-link-hover-color:          #333;
-@navbar-default-link-hover-bg:             lighten(@brand-primary, 40%);
-@navbar-default-link-active-color:         #555;
-@navbar-default-link-active-bg:            darken(@navbar-default-bg, 10%);
+@navbar-default-link-color:                white; // #777;
+@navbar-default-link-hover-color:          #B71F2E; //#333;
+@navbar-default-link-hover-bg:             transparent; //lighten(@brand-primary, 40%);
+@navbar-default-link-active-color:         #B71F2E; //#555;
+@navbar-default-link-active-bg:            transparent; //darken(@navbar-default-bg, 10%);
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;
 
 // Navbar brand label
-@navbar-default-brand-color:               @brand-primary;
-@navbar-default-brand-hover-color:         darken(@navbar-default-link-color, 10%);
+@navbar-default-brand-color:               white; //@brand-primary;
+@navbar-default-brand-hover-color:         #B71F2E; //darken(@navbar-default-link-color, 10%);
 @navbar-default-brand-hover-bg:            transparent;
 
 // Navbar toggle
 @navbar-default-toggle-hover-bg:           #ddd;
-@navbar-default-toggle-icon-bar-bg:        #ccc;
+@navbar-default-toggle-icon-bar-bg:        #B71F2E; //#ccc;
 @navbar-default-toggle-border-color:       #ddd;
-
 
 // Inverted navbar
 //
 // Reset inverted navbar basics
-@navbar-inverse-color:                      white;
-@navbar-inverse-bg:                         darken(@brand-primary, 18%);
-@navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-color:                      #B71F2E; // white;
+@navbar-inverse-bg:                         white; //darken(@brand-primary, 18%);
+@navbar-inverse-border:                     transparent; //darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
 @navbar-inverse-link-color:                 white;
-@navbar-inverse-link-hover-color:           lighten(@brand-primary, 40%);
+@navbar-inverse-link-hover-color:           lighten(#B71F2E, 40%); // lighten(@brand-primary, 40%);
 @navbar-inverse-link-hover-bg:              darken(@navbar-inverse-bg, 5%);
-@navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
+@navbar-inverse-link-active-color:          white; // @navbar-inverse-link-hover-color;
 @navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
-@navbar-inverse-link-disabled-color:        lighten(@brand-primary, 40%);
+@navbar-inverse-link-disabled-color:        lighten(#B71F2E, 40%); // lighten(@brand-primary, 40%);
 @navbar-inverse-link-disabled-bg:           transparent;
 
 // Inverted navbar brand label
@@ -315,7 +314,7 @@
 // Normal navbar needs no special styles or vars
 @navbar-inverse-search-bg:                  lighten(@navbar-inverse-bg, 25%);
 @navbar-inverse-search-bg-focus:            #fff;
-@navbar-inverse-search-border:              @navbar-inverse-bg;
+@navbar-inverse-search-border:              #B71F2E; // @navbar-inverse-bg;
 @navbar-inverse-search-placeholder-color:   #ccc;
 
 // Inverted navbar toggle
@@ -577,8 +576,8 @@
 // Breadcrumbs
 // -------------------------
 @breadcrumb-bg:               #f5f5f5;
-@breadcrumb-color:            #ccc;
-@breadcrumb-active-color:     @gray-light;
+@breadcrumb-color:            #000000; // #ccc;
+@breadcrumb-active-color:     #B71F2E; // @gray-light;
 @breadcrumb-separator:        "/";
 
 
