@@ -1,7 +1,7 @@
 {
     "id": "nodebb-theme-basecmd",
-    "name": "Customized version of the Lavender Theme for NodeBB, Originally by Psychobunny.",
-    "description": "A simple theme for NodeBB. Check out the theming guide that accompanies this work at http://burnaftercompiling.com",
+    "name": "Lavender Theme for Base Command",
+    "description": "Customized version of the Lavender Theme for NodeBB, Originally by Psychobunny.",
     "url": "https://www.github.com/justinlosh/nodebb-theme-basecmd",
     "screenshot": "screenshot.png"
 }
